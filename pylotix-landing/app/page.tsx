@@ -59,9 +59,9 @@ export default function PylotixAppleDesign() {
             >
               {isDark ? "Light Mode" : "Dark Mode"}
             </button>
-            <button className="bg-blue-600 text-white px-4 py-1.5 rounded-full text-[11px] font-semibold hover:bg-blue-500 transition">
-              Download App
-            </button>
+            <a className="bg-blue-600 text-white px-4 py-1.5 rounded-full text-[11px] font-semibold hover:bg-blue-500 transition" href="https://github.com/UditAwasthi/PylotixWebsite/releases/download/app/pylotix.apk" target="_blank" rel="noopener noreferrer">
+            Download App
+          </a>
           </div>
         </div>
       </nav>
@@ -120,9 +120,9 @@ export default function PylotixAppleDesign() {
             Stop consuming. <br />
             <span className="opacity-30">Start mastering.</span>
           </h2>
-          <button className="bg-blue-600 hover:bg-blue-500 text-white px-12 py-5 rounded-full text-xl font-medium transition-all transform active:scale-95">
+          <a className="bg-blue-600 hover:bg-blue-500 text-white px-12 py-5 rounded-full text-xl font-medium transition-all transform active:scale-95" href="https://github.com/UditAwasthi/PylotixWebsite/releases/download/app/pylotix.apk" target="_blank" rel="noopener noreferrer">
             Download App
-          </button>
+          </a>
         </motion.div>
       </section>
 
